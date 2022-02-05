@@ -4,32 +4,31 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Functional Safety',
+    //Svg: require('../../static/img/').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Cybersecurity is taken into consideration in many Safety Standards (e.g. ISO/SAE 21434). 
+        Furthermore, the digitalization, cloud transformation makes it inevitable to make adjustments into Cyber and Safety policies and programs 
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Asset Discovery',
+    //Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Knowing what you need to defend, and what you need to defend <b> the most </b> is one of the key of defending against adversaries. 
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    title: 'DevSafeOps',
+    //Svg: require('../../static/img/functional_safety.jpeg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        The 'philosophy' of DevSafeOps is based on Dev<b>Sec</b>Ops.
+        Taking both Cybersecurity and Safety into consideration in Software Development, and shifting the focus on it to the earliest stages of Development Lifecycle is the responsibility of us and vendors.
       </>
     ),
   },
@@ -39,7 +38,7 @@ function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} alt={title} />
+       {/* <Svg className={styles.featureSvg} alt={title} />  */}
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
