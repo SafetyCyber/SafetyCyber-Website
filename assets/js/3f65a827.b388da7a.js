@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksafety_cyber=self.webpackChunksafety_cyber||[]).push([[768],{2278:function(e){e.exports=JSON.parse('{"permalink":"/SafetyCyber-Website/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

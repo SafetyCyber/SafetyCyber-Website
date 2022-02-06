@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksafety_cyber=self.webpackChunksafety_cyber||[]).push([[543],{7530:function(e){e.exports=JSON.parse('{"allTagsPath":"/SafetyCyber-Website/blog/tags","slug":"/SafetyCyber-Website/blog/tags/facebook","name":"facebook","count":1,"permalink":"/SafetyCyber-Website/blog/tags/facebook"}')}}]);
