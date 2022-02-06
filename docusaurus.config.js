@@ -14,7 +14,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'SafetyCyber', // Usually your GitHub org/user name.
-  projectName: 'SafetyCyber-Website', // Usually your repo name.
+  projectName: 'safetycyber.github.io', // Usually your repo name.
 
   presets: [
     [
@@ -22,9 +22,10 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          //routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/SafetyCyber/SafetyCyber-Website',
         },
         blog: {
           showReadingTime: true,
@@ -53,7 +54,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Getting Started',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
